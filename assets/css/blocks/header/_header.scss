@@ -1,0 +1,122 @@
+// logo-search start
+header{
+    width: 100%;
+}
+.logo-search {
+    padding: 56px 0 15px 0;
+}
+.header-logo {
+    width: 287px;
+    height: 76px;
+}
+.header-logo img{
+    width: 100%;
+    height: auto;
+}
+.logo-search__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.header-search {
+    width: 650px;
+}
+.search-form {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    border-radius: 35px;
+    background-color: var(--Gray, #E9EBEB);
+    color: rgba(135, 143, 146, 0.60);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.search-icon {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+
+    cursor: pointer;
+}
+.search-icon img{
+    width: 20px;
+    height: 20px;
+
+    color: #263238;
+}
+.search-input {
+    width: 100%;
+    border: none;
+    padding: 18px 32px 18px 69px;
+
+    color: rgba(135, 143, 146, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88em;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(135, 143, 146, 0.60);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgba(135, 143, 146, 0.60);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgba(135, 143, 146, 0.60);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgba(135, 143, 146, 0.60);
+}
+.search-clear-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 22px;
+    width: 20px;
+    height: 20px;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-clear-btn img{
+    width: 100%;
+    height: 100%;
+    color: #000000;
+}
+// logo-search end
+
+
+.header-main {
+    width: 100%;
+}
+.header-main__bacground-img {
+    width: 100%;
+    height: 100%;
+}
+.header-main__about {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    padding: 33px 25px 25px 16px;
+
+    color: #fff;
+    background-color: #397EBD;
+    opacity: 0.8;
+
+    width: 360px;
+    height: 190px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
