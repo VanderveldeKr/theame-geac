@@ -1,0 +1,19 @@
+.home-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 90px;
+}
+.home-subtext {
+    p {
+        color: #505D68;
+        font-size: 0.88em;
+        font-weight: 700;
+        line-height: 116%;
+        letter-spacing: 1px;
+    }
+}
+.liner-style__home {
+    margin-left: auto;
+    margin-right: auto;
+}

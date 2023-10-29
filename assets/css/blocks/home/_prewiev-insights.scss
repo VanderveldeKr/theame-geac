@@ -1,0 +1,23 @@
+.prewiev-insights {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    .swiper {
+        width: 100%;
+    }
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        content: '';
+    }
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        content: '';
+    }
+    .swiper-slide {
+        padding: 5px;
+
+        img {
+            width: 360px;
+            height: 210px;
+        }
+    }
+}
