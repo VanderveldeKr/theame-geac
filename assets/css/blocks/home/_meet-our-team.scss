@@ -1,0 +1,43 @@
+.meet-our-team {
+    width: 100%;
+
+
+
+    .meet-our-team__wrapper {
+        background-color: #DCD3D4;
+        padding: 83px 100px;
+
+        display: flex;
+        gap: 80px;
+    }
+
+    .liner-style__home {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .meet-our-team__text {
+        max-width: 505px;
+    }
+
+    .meet-our-team__image {
+        min-width: 250px;
+        width: 356px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .meet-our-team {
+    .meet-our-team__wrapper {
+        padding: 41px 50px;
+
+        gap: 40px;
+    }
+}
+}

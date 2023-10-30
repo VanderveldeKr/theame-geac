@@ -1,0 +1,20 @@
+.why-we {
+    width: 100%;
+}
+.why-we__wrappeer {
+    display: flex;
+}
+.why-we__image {
+    width: 50%;
+}
+.why-we__text {
+    width: 50%;
+    padding-top: calc(27px + 38 * (100vw - 750px) / 1200);
+    padding-right: calc(28px + 39 * (100vw - 750px) / 1200);
+    padding-bottom: calc(27px + 38 * (100vw - 750px) / 1200);
+    padding-left: calc(40px + 70 * (100vw - 750px) / 1200);
+    background-color: #E9EBEB;
+}
+.why-me__button {
+    margin-right: auto;
+}
