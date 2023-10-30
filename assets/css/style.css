@@ -578,6 +578,11 @@ footer {
 
 .why-we__image {
   width: 50%;
+  background-color: #E9EBEB;
+  display: flex;
+}
+.why-we__image img {
+  margin: auto 0;
 }
 
 .why-we__text {
