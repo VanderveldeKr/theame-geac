@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Ubuntu:wght@400;500;700&display=swap');
 @font-face { 
     font-family: "DroidSansRegular";
-    src: url("../assets/fonts/DroidSansRegular/DroidSansRegular.eot");
-    src: url("../assets/fonts/DroidSansRegular/DroidSansRegular.eot?#iefix")format("embedded-opentype"),
-    url("../assets/fonts/DroidSansRegular/DroidSansRegular.woff") format("woff"),
-    url("../assets/fonts/DroidSansRegular/DroidSansRegular.ttf") format("truetype");
+    src: url("/assets/fonts/DroidSansRegular/DroidSansRegular.eot");
+    src: url("/assets/fonts/DroidSansRegular/DroidSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("/assets/fonts/DroidSansRegular/DroidSansRegular.woff") format("woff"),
+    url("/assets/fonts/DroidSansRegular/DroidSansRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
@@ -33,6 +33,12 @@ body{
 
 
 //text start
+.page-title {
+    font-size: 1.55em;
+    font-weight: 700;
+    line-height: 128%;
+    letter-spacing: 1px;
+}
 .headline-one {
     font-weight: 700;
     font-size: 2.77em;
@@ -60,10 +66,10 @@ body{
     font-family: "DroidSansRegular";
     font-weight: 400;
     font-size: 0.88em;
+    line-height: 193%;
 }
 .home__block-text {
-    color: #505D68;
-    font-size: 0.88em;
+    font-size: 1em;
     font-weight: 700;
     letter-spacing: 1px;
 }

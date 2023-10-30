@@ -106,8 +106,8 @@ legend {
 
 @font-face {
   font-family: "DroidSansRegular";
-  src: url("../assets/fonts/DroidSansRegular/DroidSansRegular.eot");
-  src: url("../assets/fonts/DroidSansRegular/DroidSansRegular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/DroidSansRegular/DroidSansRegular.woff") format("woff"), url("../assets/fonts/DroidSansRegular/DroidSansRegular.ttf") format("truetype");
+  src: url("/assets/fonts/DroidSansRegular/DroidSansRegular.eot");
+  src: url("/assets/fonts/DroidSansRegular/DroidSansRegular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/DroidSansRegular/DroidSansRegular.woff") format("woff"), url("/assets/fonts/DroidSansRegular/DroidSansRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
@@ -128,6 +128,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+}
+
+.page-title {
+  font-size: 1.55em;
+  font-weight: 700;
+  line-height: 128%;
+  letter-spacing: 1px;
 }
 
 .headline-one {
@@ -162,11 +169,11 @@ body {
   font-family: "DroidSansRegular";
   font-weight: 400;
   font-size: 0.88em;
+  line-height: 193%;
 }
 
 .home__block-text {
-  color: #505D68;
-  font-size: 0.88em;
+  font-size: 1em;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -584,4 +591,85 @@ footer {
 
 .why-me__button {
   margin-right: auto;
+}
+
+.contacts-main .contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-top: 60px;
+}
+.contacts-main .contacts-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 55px 140px 163px 140px;
+  background-color: #DCD3D4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts-main .contacts-title {
+  margin-bottom: 50px;
+}
+.contacts-main .contacts__info-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.contacts-main .contacts__info-list img {
+  width: 24px;
+  height: 24px;
+}
+.contacts-main .contacts__info-item {
+  display: flex;
+  gap: 15px;
+}
+.contacts-main .contacts-subtext {
+  width: 100%;
+}
+
+.whywe-wrapper {
+  width: 100%;
+}
+
+.whywe-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.whywe-image {
+  padding: 70px 0;
+}
+.whywe-image img {
+  max-width: 100%;
+}
+
+.about-container {
+  width: 100%;
+}
+
+.about-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.about-title {
+  width: 100%;
+  text-align: center;
+}
+
+.about-content__image {
+  width: 100%;
+  padding: 5px 0;
+}
+.about-content__image .about__image {
+  float: left;
+}
+.about-content__image .about__image img {
+  max-width: 100%;
+  margin: 5px 30px 5px 0;
 }/*# sourceMappingURL=style.css.map */
