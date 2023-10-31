@@ -156,26 +156,31 @@ body {
 
 .text-two {
   font-weight: 700;
-  font-size: 0.77em;
+  font-size: 0.78em;
+  letter-spacing: 1px;
+  line-height: 257%;
 }
 
 .text-three {
   font-weight: 400;
-  font-size: 0.77em;
+  font-size: 0.78em;
   line-height: 221%;
+  letter-spacing: 1px;
 }
 
 .main-text {
   font-family: "DroidSansRegular";
   font-weight: 400;
-  font-size: 0.88em;
+  font-size: 0.89em;
   line-height: 193%;
+  letter-spacing: 1px;
 }
 
 .home__block-text {
   font-size: 1em;
   font-weight: 700;
   letter-spacing: 1px;
+  line-height: 172%;
 }
 
 .button-style {
@@ -455,6 +460,10 @@ footer {
   gap: 90px;
 }
 
+.liner-style__block {
+  width: 100%;
+}
+
 .liner-style__home {
   width: 100%;
   position: relative;
@@ -465,13 +474,17 @@ footer {
 .liner-style {
   margin-left: auto;
   margin-right: auto;
+  height: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.home-block__subtext {
+  width: 100%;
 }
 
 .home-block__text {
-  display: flex;
-  flex-direction: column;
   gap: 26px;
-  align-items: center;
 }
 
 .prewiev-insights {
@@ -532,7 +545,7 @@ footer {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 0;
+  left: 15px;
 }
 
 .meet-our-team {
@@ -592,6 +605,9 @@ footer {
   padding-bottom: calc(27px + 38 * (100vw - 750px) / 1200);
   padding-left: calc(40px + 70 * (100vw - 750px) / 1200);
   background-color: #E9EBEB;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .why-me__button {
@@ -632,6 +648,10 @@ footer {
 }
 .contacts-main .contacts-subtext {
   width: 100%;
+}
+.contacts-main .contacts__info-social {
+  display: flex;
+  gap: 7px;
 }
 
 .whywe-wrapper {
@@ -677,4 +697,107 @@ footer {
 .about-content__image .about__image img {
   max-width: 100%;
   margin: 5px 30px 5px 0;
+}
+.services-header {
+  width: 100%;
+}
+.services-header .services-header__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.services-content {
+  padding: 70px 0;
+}
+.services-content .services__group-card {
+  display: flex;
+  flex-direction: column;
+  gap: 114px;
+}
+.services-content .services-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.services-content .services-card__content {
+  width: 50%;
+  padding-right: 16px;
+}
+.services-content .services-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.services-content .services-card__image {
+  width: 555px;
+  height: 300px;
+}
+.services-content .services-card__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.services-button {
+  margin-top: 27px;
+}
+.services-button .button-style {
+  padding: 14px 38px;
+  font-size: 0.67em;
+  line-height: normal;
+}
+
+.post-insights {
+  width: 100%;
+}
+
+.post-insights__header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post__preview-photo {
+  padding: 30px 0 29px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post__preview-img {
+  width: 100%;
+  height: 427px;
+}
+.post__preview-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post-insights__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.insights__content-image {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.insights__content-image img {
+  max-width: 100%;
+}
+
+.post-insights__button {
+  margin-top: 27px;
+}
+.post-insights__button .button-style {
+  padding: 13px 21px;
 }/*# sourceMappingURL=style.css.map */

@@ -4,6 +4,9 @@
     grid-template-columns: 1fr;
     gap: 90px;
 }
+.liner-style__block {
+    width: 100%;
+}
 .liner-style__home {
     width: 100%;
     position: relative;
@@ -13,10 +16,13 @@
 .liner-style {
     margin-left: auto;
     margin-right: auto;
+    height: 2px;
+    display: flex;
+    align-items: center;
+}
+.home-block__subtext {
+    width: 100%;
 }
 .home-block__text {
-    display: flex;
-    flex-direction: column;
     gap: 26px;
-    align-items: center;
 }

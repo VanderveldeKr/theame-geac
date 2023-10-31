@@ -19,6 +19,10 @@
     padding-bottom: calc(27px + 38 * (100vw - 750px) / 1200);
     padding-left: calc(40px + 70 * (100vw - 750px) / 1200);
     background-color: #E9EBEB;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .why-me__button {
     margin-right: auto;
