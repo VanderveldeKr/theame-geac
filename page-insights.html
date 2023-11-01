@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title style="text-transform: uppercase;">geac</title>
+</head>
+<body>
+    <header>
+        <section class="logo-search">
+            <div class="container">
+                <div class="logo-search__wrapper">
+                    <div class="header-logo">
+                        <a href="page-home.html">
+                            <img
+                            src="./assets/image/header/logo-1x.png"
+                            alt="GEAC Global Environmental Assesment Company"
+                            srcset="./assets/image/header/logo-1x.webp 1x, ./assets/image/header/logo-2x.webp 2x" />
+                        </a>
+                    </div>
+                    <div class="header-search">
+                        <form class="search-form" action="#">
+                            <span class="search-icon"><img src="./assets/image/header/icon/search.svg" alt="To start searching"></span>
+                            <input class="search-input" type="text" placeholder="What are you looking for?" onkeydown="handleKeyDown(event)">
+                            <button class="search-clear-btn" type="reset"><img src="./assets/image/header/icon/deleate.svg" alt="delete what you wrote"></button>                            
+                        </form>                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="header-main">
+            <img class="header-main__bacground-img"
+            src="./assets/image/header/screensaver-1x.png"
+            alt="GEAC Global Environmental Assesment Company"
+            srcset="./assets/image/header/screensaver-2x.webp 1x, ./assets/image/header/screensaver-2x.webp 2x" />
+
+            <div class="container">
+                <div class="header-main__about">
+                    <h2 class="headline-two">GEAC</h2>
+                    <p class="text-one">Think ecological, act responsible: We assess the risks you can't see</p>
+                    <p class="text-three">Make your business eco-friendly</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="header-nav">
+            <div class="container">
+                <nav class="navigation">
+                    <ul class="nav__list">
+                        <li class="nav__list-item">
+                            <a href="page-about.html" class="nav__list-link">about</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="page-services.html" class="nav__list-link">services</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="" class="nav__list-link">case studies</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="page-insights.html" class="nav__list-link">insights</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="page-contacts.html" class="nav__list-link">contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="insights">
+            <div class="container">
+                <div class="insights-wrapper">
+
+                    <div class="insights-header">
+                        <div class="insights__header-title">
+                            <h5 class="page-title" style="line-height: 110%;">Drawing on a wealth of scientific expertise, our professionals conduct a detailed examination of the challenges faced by our clients. </h5>
+                        </div>
+                        <div class="post-insights__subtitle home__block-text">
+                            <p>Use our intuitive search feature to filter publications by date and theme for a customized browsing experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="filters-wrapper">
+                        <div class="filters-title home__block-text" style="line-height: 200%;">
+                            <p>Search by:</p>
+                        </div>
+                        <div class="filters" id="filters">
+                            
+                            <select class="filter-list custom-select" style="line-height: 128px; color: #878E91;">
+                              <option value="" disabled selected hidden>Theme</option>
+                              <option value="category1">Mapping the ESG Landscape of Serbia</option>
+                              <option value="category2">Habitat as a Discrete Management Unit for ESG-based Practices</option>
+                              <option value="category3">An ESG-based practice in coordinates of ecosystem services</option>
+                              <option value="category1">Mapping the ESG Landscape of Serbia</option>
+                              <option value="category2">Habitat as a Discrete Management Unit for ESG-based Practices</option>
+                              <option value="category3">An ESG-based practice in coordinates of ecosystem services</option>
+                            </select>
+                            <select class="filter-list custom-select" style="line-height: 128px; color: #878E91;">
+                                <option value="" disabled selected hidden>Date</option>
+                                <option value="option1">11.02.2022</option>
+                                <option value="option2">11.28.2023</option>
+                                <option value="option3">11.11.2023</option>
+                                <option value="option1">11.02.2022</option>
+                                <option value="option2">11.28.2023</option>
+                                <option value="option3">11.11.2023</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    
+
+                    <div class="page-group__insights-post">
+                        
+                        <div class="page__insights-post">
+                            <div class="slide-image">
+                                <img src="./assets/image/home/insights/one-1x.png"
+                                alt="image Mapping the ESG Landscape of Serbia"
+                                srcset="./assets/image/home/insights/one-1x.webp 1x, ./assets/image/home/insights/one-2x.webp 2x" />                               
+                            </div>
+                            <div class="slide-title">
+                                <h5 class="text-one">Mapping the ESG Landscape of Serbia</h5>
+                            </div>                           
+                        </div>
+                        <div class="page__insights-post">
+                            <div class="slide-image">
+                                <img src="./assets/image/home/insights/three-1x.png"
+                                alt="image ESG and Dams"
+                                srcset="./assets/image/home/insights/three-1x.webp 1x, ./assets/image/home/insights/three-2x.webp 2x" />
+                            </div>
+                            <div class="slide-title">
+                                <h5 class="text-one">An ESG-based practice in coordinates of ecosystem services</h5>
+                            </div>                           
+                        </div>
+                        <div class="page__insights-post">
+                            <div class="slide-image">
+                                <img src="./assets/image/home/insights/five-1x.png"
+                                alt="image What’s The Difference Between Biodiversity Offsets and Other Compensatory Measures?"
+                                srcset="./assets/image/home/insights/five-1x.webp 1x, ./assets/image/home/insights/five-2x.webp 2x" />
+                            </div>
+                            <div class="slide-title">
+                                <h5 class="text-one">What’s The Difference Between Biodiversity Offsets and Other Compensatory Measures?</h5>
+                            </div>                           
+                        </div>
+                        <div class="page__insights-post">
+                            <div class="slide-image">
+                                <img src="./assets/image/home/insights/two-1x.png"
+                                alt="image Habitat as a Discrete Management Unit for ESG-based Practices"
+                                srcset="./assets/image/home/insights/two-1x.webp 1x, ./assets/image/home/insights/two-2x.webp 2x" />       
+                            </div>
+                            <div class="slide-title">
+                                <h5 class="text-one">Habitat as a Discrete Management Unit for ESG-based Practices</h5>
+                            </div>                           
+                        </div>
+                        <div class="page__insights-post">
+                            <div class="slide-image">
+                                <img src="./assets/image/home/insights/four-1x.png"
+                                alt="image The Area of Influence"
+                                srcset="./assets/image/home/insights/four-1x.webp 1x, ./assets/image/home/insights/four-2x.webp 2x" />
+                            </div>
+                            <div class="slide-title">
+                                <h5 class="text-one">The Area of Influence</h5>
+                            </div>                           
+                        </div>
+                        <div class="page__insights-post">
+                            <div class="slide-image">
+                                <img src="./assets/image/home/insights/six-1x.png"
+                                alt="image ESG and Dams"
+                                srcset="./assets/image/home/insights/six-1x.webp 1x, ./assets/image/home/insights/six-2x.webp 2x" />
+                            </div>
+                            <div class="slide-title">
+                                <h5 class="text-one">ESG Flood Risk Assessment Project</h5>
+                            </div>                           
+                        </div>
+
+                    </div>
+
+
+                    <div class="insights-pagination" id="pagination">
+                        <button id="insights-prev" onclick="prevPage()"><img src="./assets/image/insights/arrow.svg" alt="arrow prev"></button>
+                        <span id="currentPage">1</span>
+                        <span class="insights-pagination__active " id="currentPage">2</span>
+                        <span id="currentPage">3</span>
+                        <span id="currentPage">4</span>
+                        <span id="currentPage">5</span>
+                        <button id="insights-next" onclick="nextPage()"><img src="./assets/image/insights/arrow.svg" alt="arrow next" style="rotate: 180deg;"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <a href="#">
+                            <img
+                            src="
+                            ./assets/image/footer/logo-1x.png 1x
+                            ./assets/image/footer/logo-2x.png 2x"
+                            alt="GEAC Global Environmental Assesment Company"
+                            srcset="
+                                ./assets/image/footer/logo-1x.webp 1x, 
+                                ./assets/image/footer/logo-2x.webp 2x
+                            " />
+                        </a>
+                    </div>
+                    <nav class="nav-footer">
+                        <ul class="nav-list__footer">
+                            <li class="nav-item__footer">
+                                <a href="" class="nav-ling__footer text-two">About</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="" class="nav-ling__footer text-two">Services</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="" class="nav-ling__footer text-two">Case studies</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="" class="nav-ling__footer text-two">Insights</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="" class="nav-ling__footer text-two">Contact us</a>
+                            </li>
+                            <li class="nav-item__footer">
+                                <a href="" class="nav-ling__footer text-two">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </nav>  
+                    <div class="footer-registry">
+                        <p class="text-three">© 2023 Global Environmental Assessment Company. Trade Registry no. 090578787</p>
+                    </div>  
+                </div>            
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>    
+    <script src="./assets/js/swiper.js"></script>
+</body>
+</html>
