@@ -719,10 +719,11 @@ footer {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 78px;
 }
 .services-content .services-card__content {
-  width: 50%;
-  padding-right: 16px;
+  width: 652px;
 }
 .services-content .services-card__content {
   display: flex;
@@ -730,8 +731,7 @@ footer {
   gap: 27px;
 }
 .services-content .services-card__image {
-  width: 555px;
-  height: 300px;
+  width: 410px;
 }
 .services-content .services-card__image img {
   width: 100%;
@@ -753,17 +753,17 @@ footer {
   width: 100%;
 }
 
-.post-insights__header {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.post-insights__author {
+  margin: 20px 0 50px 0;
 }
 
 .post__preview-photo {
-  padding: 30px 0 29px 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.post__preview-photo .post__preview-author {
+  margin-bottom: 29px;
 }
 
 .post__preview-img {
