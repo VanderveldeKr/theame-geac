@@ -59,3 +59,19 @@
     transform: translateY(-50%);
     left: 15px;
 }
+
+//prewiev-insights mobile start
+@media(max-width:750px) {
+    .swiper-slide {
+        width: 100%;
+        justify-content: center;
+        .slide-image {
+            margin: 0 auto;
+        }
+        .slide-title {
+            margin: 0 auto;
+        }
+    }
+
+}
+//prewiev-insights mobile end

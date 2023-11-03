@@ -26,3 +26,19 @@
 .home-block__text {
     gap: 26px;
 }
+
+
+//home-base mobile start
+@media(max-width:750px) {
+    .home-main {
+        gap: 25px;
+    }
+    .home-block__text {
+        gap: 16px;
+    }
+    .liner-style__home {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+//home-base mobile end

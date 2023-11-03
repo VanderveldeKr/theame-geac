@@ -1,3 +1,4 @@
+//whywe start
 .whywe-wrapper {
     width: 100%;
 }
@@ -12,3 +13,19 @@
         max-width: 100%;
     }
 }
+//whywe end
+
+
+//whywe mobile start
+@media(max-width:750px){
+    .whywe-title {
+        margin-bottom: 25px;
+    }
+    .whywe-image {
+        padding: 35px 0;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+//whywe mobile end

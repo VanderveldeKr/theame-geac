@@ -1,3 +1,4 @@
+//services start
 .services-header {
     width: 100%;
 
@@ -49,3 +50,38 @@
         line-height: normal;
     }
 }
+//services end
+
+
+//services mobile start
+@media(max-width:750px){
+    .services-header {
+        .services-header__wrapper {
+            gap: 25px;
+        }
+    
+    }
+    .services-content {
+        padding: 35px 0;
+        .services__group-card {
+            gap: 50px;
+        }
+        .services-card {
+            width: 100%;
+    
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .services-card__content {
+            width: 100%;
+        }
+        .services-card__content {
+            gap: 20px;
+        }
+        .services-card__image {
+            width: 100%;
+        }
+    }
+
+}
+//services mobile end

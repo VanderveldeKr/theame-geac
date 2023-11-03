@@ -20,7 +20,6 @@ body{
 
     width: 100%;
     height: 100%;
-    position: relative;
 }
 .container {
     max-width: 1170px;
@@ -79,6 +78,34 @@ body{
     line-height: 172%;
 }
 //text end
+//text mobile start
+@media(max-width:750px) {
+    .page-title {
+        font-size: 0.77em;
+    }
+    .headline-one {
+        font-size: 1.38em;
+    }
+    .headline-two {
+        font-size: 1.05em;
+    }
+    .text-one {
+        font-size: 0.5em;
+    }
+    .text-two {
+        font-size: 0.4em;
+    }
+    .text-three {
+        font-size: 0.4em;
+    }
+    .main-text {
+        font-size: 0.45em;
+    }
+    .home__block-text {
+        font-size: 0.5em;
+    }
+}
+//text mobile end 
 
 
 //button start

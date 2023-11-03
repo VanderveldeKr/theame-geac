@@ -1,3 +1,4 @@
+//about start
 .about-container {
     width: 100%;
 }
@@ -21,6 +22,27 @@
             margin: 5px 30px 5px 0;
         }
     }
-    .about-content {
-    }
 }
+//about end
+
+
+//about mobile start
+@media (max-width:750px) {
+    .about-wrapper {
+        gap: 35px;
+    }
+    .about-content__image {
+        width: 100%;
+        padding: 5px 0;
+        .about__image {
+            float: none;
+            margin: 10px auto;
+            width: 100%;
+            text-align: center;
+            img {
+                margin: 0 auto;
+            }
+        }
+}
+}
+//about mobile end

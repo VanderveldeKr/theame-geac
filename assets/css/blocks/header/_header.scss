@@ -18,6 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    position: relative;
 }
 .header-search {
     width: 650px;
@@ -173,6 +174,17 @@ header{
     background-color: black;
     z-index: 1;
 }
+.burger-menu {
+    display: none;
+}
 // header-nav end
 
 
+
+  
+
+  
+  
+  
+  
+  

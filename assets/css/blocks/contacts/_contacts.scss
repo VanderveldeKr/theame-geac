@@ -1,3 +1,4 @@
+//contacts start
 .contacts-main {
     .contacts-wrapper {
         display: flex;
@@ -42,3 +43,22 @@
         gap: 7px;
     }
 }
+//contacts end
+
+
+//contacts mobile start
+@media(max-width:750px) {
+    .contacts-main {
+        .contacts-wrapper {
+            gap: 35px;
+        }
+        .contacts-content {
+            padding: 25px;
+            text-align: center;
+        }
+        .contacts-title {
+            margin-bottom: 25px;
+        }
+    }
+}
+//contacts mobile end
