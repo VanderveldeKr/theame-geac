@@ -147,6 +147,7 @@
     // header-main start
     .header-main {
         width: 100%;
+        padding-top: 78px;
     }
     .header-main__bacground-img {
         width: 100%;
@@ -209,6 +210,12 @@
     .header-search.active .container {
       transform: translateY(0);
     }
+    .logo-search {
+      width: 100%;
+      position: fixed;
+      background-color: #fff;
+      z-index: 22;
+    }
     // header-main end
     }
     @media(max-width:450px) {
@@ -226,6 +233,12 @@
         }
         .header-search {
           height: 78px;
+        }
+        .logo-search {
+          width: 100%;
+          position: fixed;
+          background-color: #fff;
+          z-index: 22;
         }
     }
 // Header mobile (750px,450) end

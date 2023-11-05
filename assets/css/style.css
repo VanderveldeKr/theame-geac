@@ -547,6 +547,7 @@ header {
   }
   .header-main {
     width: 100%;
+    padding-top: 78px;
   }
   .header-main__bacground-img {
     width: 100%;
@@ -603,6 +604,12 @@ header {
   .header-search.active .container {
     transform: translateY(0);
   }
+  .logo-search {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 22;
+  }
 }
 @media (max-width: 450px) {
   .header-logo {
@@ -619,6 +626,12 @@ header {
   }
   .header-search {
     height: 78px;
+  }
+  .logo-search {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 22;
   }
 }
 footer {

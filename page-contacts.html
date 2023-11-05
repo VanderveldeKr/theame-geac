@@ -11,25 +11,38 @@
     <header>
         <section class="logo-search">
             <div class="container">
-                <div class="logo-search__wrapper">
-                    <div class="header-logo">
-                        <a href="page-home.html">
-                            <img
-                            src="./assets/image/header/logo-1x.png"
-                            alt="GEAC Global Environmental Assesment Company"
-                            srcset="./assets/image/header/logo-1x.webp 1x, ./assets/image/header/logo-2x.webp 2x" />
-                        </a>
-                    </div>
-                    <div class="header-search">
-                        <form class="search-form" action="#">
-                            <span class="search-icon"><img src="./assets/image/header/icon/search.svg" alt="To start searching"></span>
-                            <input class="search-input" type="text" placeholder="What are you looking for?" onkeydown="handleKeyDown(event)">
-                            <button class="search-clear-btn" type="reset"><img src="./assets/image/header/icon/deleate.svg" alt="delete what you wrote"></button>                            
-                        </form>                    
-                    </div>
+              <div class="logo-search__wrapper">
+                <div class="header-logo">
+                  <a href="page-home.html">
+                    <img src="./assets/image/header/logo-1x.png" alt="GEAC Global Environmental Assesment Company" srcset="./assets/image/header/logo-1x.webp 1x, ./assets/image/header/logo-2x.webp 2x" />
+                  </a>
                 </div>
+                <span class="mobile__search-icon"><img src="./assets/image/header/icon/search.svg" alt="To start searching"></span>
+                <div class="burger-menu" style="z-index: 20;">
+                  <a href="" class="burger-menu_button">
+                    <span class="burger-menu_lines"></span>
+                  </a>
+                  <nav class="burger-menu_nav home__block-text">
+                    <a href="page-home.html" class="burger-menu_link">home</a>
+                    <a href="page-about.html" class="burger-menu_link">about</a>
+                    <a href="page-services.html" class="burger-menu_link">services</a>
+                    <a href="page-case.html" class="burger-menu_link">case studies</a>
+                    <a href="page-insights.html" class="burger-menu_link">insights</a>
+                    <a href="page-contacts.html" class="burger-menu_link">contacts</a>
+                    <a href="page-policy.html" class="burger-menu_link">privacy policy</a>
+                  </nav>
+                  <div class="burger-menu_overlay"></div>
+                </div>
+                <div class="header-search">
+                  <form class="search-form" action="#">
+                    <span class="search-icon"><img src="./assets/image/header/icon/search.svg" alt="To start searching"></span>
+                    <input class="search-input" type="text" placeholder="What are you looking for?" onkeydown="handleKeyDown(event)">
+                    <button class="search-clear-btn" type="reset"><img src="./assets/image/header/icon/deleate.svg" alt="delete what you wrote"></button>
+                  </form>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
 
         <section class="header-main">
             <img class="header-main__bacground-img"
@@ -63,7 +76,7 @@
                             <a href="page-insights.html" class="nav__list-link">insights</a>
                         </li>
                         <li class="nav__list-item">
-                            <a href="page-contacts.html" class="nav__list-link nav-active">contacts</a>
+                            <a href="page-contacts.html" class="nav__list-link">contacts</a>
                         </li>
                     </ul>
                 </nav>
@@ -169,25 +182,11 @@
         </div>
     </footer>
     
-    <div class="burger-menu" style="z-index: 20;">
-        <a href="" class="burger-menu_button">
-          <spun class="burger-menu_lines"></spun>
-        </a>
-        <nav class="burger-menu_nav home__block-text">
-            <a href="page-home.html" class="burger-menu_link">home</a>
-            <a href="page-about.html" class="burger-menu_link">about</a>
-            <a href="page-services.html" class="burger-menu_link">services</a>
-            <a href="page-case.html" class="burger-menu_link">case studies</a>
-            <a href="page-insights.html" class="burger-menu_link">insights</a>
-            <a href="page-contacts.html" class="burger-menu_link">contacts</a>
-        </nav>
-        <div class="burger-menu_overlay"></div>
-    </div>
     <script
     src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/swiper.js"></script>
-</body>
+
 </html>

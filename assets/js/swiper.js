@@ -36,6 +36,25 @@ function burgerMenu(selector) {
   
   burgerMenu('.burger-menu');
 
+        // Проверка ширины экрана при изменении размера окна
+        window.addEventListener('resize', function() {
+            if (window.matchMedia('(max-width: 750px)').matches) {
+                swiper.params.slidesPerView = 1;
+            } else {
+                swiper.params.slidesPerView = 3;
+            }
+            swiper.update(); // Обновление Swiper после изменения количества слайдов
+            });
+    
+            // Проверка ширины экрана при загрузке страницы
+            window.addEventListener('load', function() {
+            if (window.matchMedia('(max-width: 750px)').matches) {
+                swiper.params.slidesPerView = 1;
+            } else {
+                swiper.params.slidesPerView = 3;
+            }
+            });
+
 
 // Получаем необходимые элементы
 const mobileSearchIcon = document.querySelector('.mobile__search-icon');
