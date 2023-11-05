@@ -1,0 +1,40 @@
+//policy  start
+.policy {
+    width: 100%;
+}
+.policy-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+}
+.policy-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.policy-list__item {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+//policy end
+
+
+//policy mobile start
+@media(max-width:750px) {
+    .policy-wrapper {
+        gap: 25px;
+    }
+    .policy-list {
+        gap: 25px;
+    }
+    .policy-list__item {
+        gap: 14px;
+    }
+}
+//policy mobile end
+

@@ -35,3 +35,22 @@ function burgerMenu(selector) {
   }
   
   burgerMenu('.burger-menu');
+
+
+// Получаем необходимые элементы
+const mobileSearchIcon = document.querySelector('.mobile__search-icon');
+const headerSearch = document.querySelector('.header-search');
+
+// Функция для обработки клика
+function handleClick(event) {
+  if (!headerSearch.contains(event.target) && !mobileSearchIcon.contains(event.target)) {
+    // Если клик был за пределами блока "header-search" и не на иконке "mobile__search-icon", скрываем блок
+    headerSearch.classList.remove('active');
+  } else if (mobileSearchIcon.contains(event.target)) {
+    // Если клик был на иконке "mobile__search-icon", показываем блок
+    headerSearch.classList.add('active');
+  }
+}
+
+// Обработчик клика
+document.addEventListener('click', handleClick);
